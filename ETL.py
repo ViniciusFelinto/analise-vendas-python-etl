@@ -49,7 +49,7 @@ tabFinal = tabFinal[[
     'discount': 'desconto',
 })
 
-# 5. Salvar o arquivo final
+
 output_path = 'dados_tratados/northwind_analise3.xlsx'
 print(f"Salvando arquivo final em {output_path}")
 tabFinal.to_excel(output_path, index=False)
